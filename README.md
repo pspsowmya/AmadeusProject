@@ -4,7 +4,11 @@ AmadeusFlightAvailabilityAPI
 Overview: 
 This project is built to access flight availabilty API of amadeus and get the response from the API , store it in an excel so that we can use that data for visualization. 
 
-Steps to import project: 
+Prerequisites: 
+
+You need to register in amadeus as a self-service API user so that you can get Client credentails (client key and client token) which we use to send in each request as a part of authorization.
+
+Steps to import and run the project: 
 
 1. Download the source cpde as a zip file 
 2. import the project into eclipse or any other IDE as a gradle project 
