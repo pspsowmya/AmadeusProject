@@ -185,7 +185,8 @@ public class FlightAvailabilityMultipleCallsAUHtoHYD {
 			row.createCell(10).setCellValue((String)operatorCarrierCodeArray.get(m));	
 		}
 		try {
-			FileOutputStream outputStream = new FileOutputStream("D://FlightAvailabilty.xlsx");
+			String path = System.getProperty("user.dir");
+			FileOutputStream outputStream = new FileOutputStream(path+"/FlightAvailabilty.xlsx");
 			workbook.write(outputStream); 
 		}
 		finally {
