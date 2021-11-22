@@ -3,6 +3,7 @@ AmadeusFlightAvailabilityAPI
 
 Overview: 
 This project is built to access flight availabilty API of amadeus and get the response from the API , store it in an excel so that we can use that data for visualization. 
+Amadeus is a third party API provider which usually provides API for travel, booking and hotel and I used Amadeus FlightAvailability API for travel. This API returns all the seats that are available to travel in a flight for a particular date chosen for a source and destination. I have captured this data for set of dates between two different destinations. This API generates client credentials which we use to communicate with the API when we pass each request. I have used Java concepts to implement this.
 
 Prerequisites: 
 
